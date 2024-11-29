@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Containers Demo</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+
+  body{
+    background-image:url(pngtree-technology-robot-blue-technology-sense-lines-image_793551.jpg);
+    color: white;
+  }
+  select{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  .container{
+
+    background-color: #0b182e;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+ }
+ textarea{
+  border-radius: 5px;
+  width: 100%;
+  padding: 8px;
+ }
+
+</style>
+<body>
+<div class="container mt-5">
+  <h1 class="mb-4 text-center">Robotics Club Registration Form</h1>
+  <div>
+    <form>
+      <div class="row md-3">
+        <div class="col-md-6 col-demo">
+          <label for="exampleName">Name</label>
+        <input type="name" class="form-control" id="exampleName" placeholder="Enter Name">
+        </div>
+        <div class="col-md-6 col-demo">
+          <label for="exampleAge">Age</label>
+        <input type="age" class="form-control" id="exampleAge" placeholder="Enter Age">
+        </div>
+      </div>
+      <div class="row md-3">
+        <div class="col-md-6 col-demo">
+           <label for="exampleEmail">Email Address</label>
+        <input type="email" class="form-control" id="exampleEmail" placeholder="Enter Email">
+        </div>
+        <div class="col-md-6 col-demo">
+          <label for="examplenumber">Phone Number</label>
+        <input type="number" class="form-control" id="examplenumber" placeholder="Enter Phone Number">
+        </div>
+      </div>
+
+      <div class="form-check mb-3"> <br>
+        <p>Preferred Robotics Topics</p>
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" >
+        <label class="form-check-label" for="exampleCheck1">
+          Programming
+        </label> <br>
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" >
+        <label class="form-check-label" for="exampleCheck1">
+          Electronics
+        </label> <br>
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" >
+        <label class="form-check-label" for="exampleCheck1">
+          Mechanical Design
+        </label> <br>
+
+         <br><p>Robotics Experience Level</p>
+        <input type="radio" class="form-check-input" id="exampleCheck1" >
+        <label class="form-check-label" for="exampleCheck1">
+          Beginner 
+        </label> <br>
+        <input type="radio" class="form-check-input" id="exampleCheck1" >
+        <label class="form-check-label" for="exampleCheck1">
+          Intermediate 
+        </label> <br>
+        <input type="radio" class="form-check-input" id="exampleCheck1" >
+        <label class="form-check-label" for="exampleCheck1">
+          Advanced
+        </label><br>
+
+        <br><br>
+        <label for="examplenumber">Preffered Robotics Project</label>
+        <input type="number" class="form-control" id="exampleProject" placeholder="Choose a Project..."><br>
+
+        <label>Statement of Interest</label>
+    <textarea id="textarea" name="textarea" rows="3" placeholder="Start Typing Here..."></textarea>
+
+        <br><button type="submit" class="btn btn-primary">Submit</button>
+
+
+
+      </div>
+    </form>
+  </div>
+</div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
